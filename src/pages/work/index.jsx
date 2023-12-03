@@ -55,7 +55,7 @@ const Work = () => {
               <div className="relative flex items-center justify-center gap-6 overflow-hidden xxl:gap-x-20 ">
                 <div className="group relative flex cursor-pointer items-center justify-center overflow-hidden">
                   <img
-                    src={'/public/thumb1.png'}
+                    src={'/thumb1.png'}
                     className="rounded-lg"
                     width={500}
                     height={300}
@@ -81,7 +81,7 @@ const Work = () => {
                         />
                         <img
                           className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px]"
-                          src={'/public/styled-components}.svg'}
+                          src={'/styled-components}.svg'}
                           alt=""
                           width={120}
                           name="Styled Components"
@@ -89,12 +89,12 @@ const Work = () => {
 
                         <img
                           className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px] "
-                          src={'/public/react-query.svg'}
+                          src={'/react-query.svg'}
                           alt=""
                           name="React Query"
                         />
                         <img
-                          src={'/public/react-router.svg'}
+                          src={'/react-router.svg'}
                           className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px] "
                           name="React Router"
                           alt=""
@@ -136,7 +136,7 @@ const Work = () => {
                 {/* card2 */}
                 <div className="group relative hidden cursor-pointer items-center justify-center overflow-hidden lg:flex">
                   <img
-                    src={'/public/thumb3.png'}
+                    src={'/thumb3.png'}
                     className="rounded-lg"
                     width={500}
                     height={300}
@@ -164,7 +164,7 @@ const Work = () => {
                           className="transition-all duration-300 hover:text-[#61DBFB]"
                         />
                         <img
-                          src={'/public/react-router.svg'}
+                          src={'/react-router.svg'}
                           className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px] "
                           name="React Router"
                           alt=""
@@ -204,7 +204,7 @@ const Work = () => {
                 <div className="relative hidden items-center justify-center gap-6 overflow-hidden xl:flex xxl:gap-x-20 ">
                   <div className="group relative flex cursor-pointer items-center justify-center overflow-hidden">
                     <img
-                      src={'/public/thumb2.png'}
+                      src={'/thumb2.png'}
                       className="rounded-lg"
                       width={500}
                       height={300}
@@ -229,13 +229,13 @@ const Work = () => {
                             className="transition-all duration-300 hover:text-[#61DBFB]"
                           />
                           <img
-                            src={'/public/css-module.png'}
+                            src={'/css-module.png'}
                             alt=""
                             className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px] "
                           />
 
                           <img
-                            src={'/public/react-router.svg'}
+                            src={'/react-router.svg'}
                             className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px] "
                             name="React Router"
                             alt=""
@@ -270,7 +270,7 @@ const Work = () => {
                   {/* card4 */}
                   <div className="group relative hidden cursor-pointer items-center justify-center overflow-hidden lg:flex">
                     <img
-                      src={'/public/thumb4.png'}
+                      src={'/thumb4.png'}
                       className="rounded-lg"
                       width={500}
                       height={300}
@@ -331,7 +331,7 @@ const Work = () => {
         </div>
       </div>
       <div className="absolute -bottom-16 -left-24 z-10  hidden w-[460px] xxl:flex">
-        <img src="../../public/back.png" alt="" height={300} className="" />
+        <img src="/back.png" alt="" height={300} className="" />
       </div>
     </div>
   );
