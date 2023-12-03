@@ -1,8 +1,9 @@
+import img from '../../public/avt.png'
 const Avatar = () => {
   return (
     <div className="hidden xl:flex xl:max-w-none">
       <img
-        src="../../public/avt.png"
+        src={img}
         width="737px"
         height="678px"
         alt=""
