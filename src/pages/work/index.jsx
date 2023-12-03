@@ -55,6 +55,7 @@ const Work = () => {
               <div className="relative flex items-center justify-center gap-6 overflow-hidden xxl:gap-x-20 ">
                 <div className="group relative flex cursor-pointer items-center justify-center overflow-hidden">
                   <img
+                    loading="lazy"
                     src={'/thumb1.png'}
                     className="rounded-lg"
                     width={500}
