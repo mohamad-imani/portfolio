@@ -52,7 +52,7 @@ const Contact = () => {
       exit='hidden'
       variants={fadeIn('right' , 0.6)}
       className='hidden xxl:flex absolute w-[400px] bottom-64 left-24 mix-blend-color-dodge brightness-95 saturate-0 '>
-      <img src="../../public/hands.png" className='h-full w-full'  alt="" />
+      <img src={"/hands.png"} className='h-full w-full'  alt="" />
       </motion.div>
       <div className="container mx-auto flex h-full items-center justify-center py-32 text-center xl:text-left">
         {/*text & from*/}

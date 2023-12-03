@@ -11,7 +11,7 @@ const ProjectsBtn = () => {
         className="group relative flex h-[185px] w-[185px] items-center justify-center bg-circleStar bg-cover bg-center bg-no-repeat cursor-pointer z-50"
       >
         <img
-          src="../../public/rounded-text.png"
+          src={"/rounded-text.png"}
           width={141}
           height={148}
           alt=""

@@ -53,7 +53,7 @@ const aboutData = [
 
           <img
             className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px] "
-            src="../../public/react-query.svg"
+            src={"/react-query.svg"}
             alt=""
             name="React Query"
           />,
@@ -63,7 +63,7 @@ const aboutData = [
           />,
 
           <img
-            src="../../public/react-router.svg"
+            src={"/react-router.svg"}
             className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px] "
             name="React Router"
             alt=""
@@ -84,7 +84,7 @@ const aboutData = [
           />,
           <img
             className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px]"
-            src="../../public/styled-components.svg"
+            src={"/styled-components.svg"}
             alt=""
             width={150}
             name="Styled Components"
