@@ -221,12 +221,12 @@ const About = () => {
               );
             })}
           </div>
-          <div className=" mt-6 flex flex-col  items-center gap-y-2 py-2 xl:mt-0 xl:items-start xl:gap-y-4 xl:py-6">
+          <div className=" mt-2 sm:mt-6 flex flex-col items-center gap-y-2 py-2 xl:mt-0 xl:items-start xl:gap-y-4 xl:py-6">
             {aboutData[index].info.map((item, itemIndex) => {
               return (
                 <div
                   key={itemIndex}
-                  className="flex max-w-max flex-1 flex-col items-center gap-x-4 text-white/60 md:flex-row xl:mt-5 "
+                  className="flex max-w-max flex-1 flex-col items-center  gap-x-4 text-white/60 md:flex-row xl:mt-5 "
                 >
                   <div className="mb-2 w-max font-light md:mb-0 ">
                     {item.title}

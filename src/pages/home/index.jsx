@@ -19,7 +19,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 text-white/90 text-5xl mt-10 xxl:text-7xl"
+            className="h1 text-white/90 text-5xl sm:mt-10 xxl:text-7xl"
           >
             
             <span className="font-[righteous]  tracking-wider -ml-[29px] xl:ml-0">Frontend
@@ -40,7 +40,6 @@ const Home = () => {
             a front-end developer born in 1998 with solid foundation of React.js , Responsive & Progressive web designs. 
             <br />
             {`I'm`} confident, naturally curious and perpetually working on improving my development skills day to day.
-            <br />
             Dive into my portfolio to explore projects.
           </motion.p>
           {/*btn*/}

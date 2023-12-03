@@ -82,7 +82,7 @@ const Work = () => {
                         />
                         <img
                           className="w-7 max-w-[28px] grayscale transition-all duration-300 hover:grayscale-0 md:w-10 md:max-w-[40px]"
-                          src={'/styled-components}.svg'}
+                          src={'/styled-components.svg'}
                           alt=""
                           width={120}
                           name="Styled Components"
