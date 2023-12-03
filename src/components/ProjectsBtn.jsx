@@ -12,10 +12,10 @@ const ProjectsBtn = () => {
       >
         <img
           src={"/rounded-text.png"}
-          width={141}
-          height={148}
+          width={131}
+          height={138}
           alt=""
-          className="h-full max-h-[148px] w-full max-w-[141px] animate-spin-slow"
+          className="h-full max-h-[138px] w-full max-w-[131px] animate-spin-slow"
         />
         <HiArrowRight className="absolute text-white text-4xl transition-all duration-300 group-hover:translate-x-2 " />
       </Link>
