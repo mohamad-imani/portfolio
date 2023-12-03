@@ -2,6 +2,7 @@
 import ParticlesContainer from '../../components/ParticlesContainer';
 import ProjectsBtn from '../../components/ProjectsBtn';
 import Avatar from '../../components/Avatar';
+
 // // framer motion
 import { motion } from 'framer-motion';
 // //variants
@@ -61,7 +62,7 @@ const Home = () => {
       <div className="absolute bottom-0 right-0 h-full w-full">
         {/*bg img*/}
 
-        <div className="translate-z-0 absolute h-full w-full bg-none mix-blend-color-dodge xl:bg-explosion xl:bg-opacity-80 xl:bg-cover xl:bg-right xl:bg-no-repeat  "></div>
+        <div className="translate-z-0 absolute h-full w-full bg-none mix-blend-color-dodge xl:bg-[] xl:bg-opacity-80 xl:bg-cover xl:bg-right xl:bg-no-repeat  "></div>
         {/*particles*/}
         <ParticlesContainer />
         {/*avatar img*/}
