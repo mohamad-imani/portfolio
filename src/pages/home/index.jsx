@@ -43,7 +43,7 @@ const Home = () => {
             Dive into my portfolio to explore projects.
           </motion.p>
           {/*btn*/}
-          <div className="relative flex justify-center xl:hidden">
+          <div className="relative flex justify-center xl:hidden mb-2">
             <ProjectsBtn />
           </div>
           <motion.div

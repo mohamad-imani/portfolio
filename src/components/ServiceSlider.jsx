@@ -2,30 +2,23 @@
 /* eslint-disable no-unused-vars */
 // icons
 import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
-  RxReader,
+
   RxRocket,
   RxArrowTopRight,
   RxComponent1,
   RxComponent2,
 } from 'react-icons/rx';
-// import swiper react components
-// import { Swiper, SwiperSlide } from 'swiper/react';
+
 import {SwiperSlide,Swiper} from 'swiper/react';
 //import swiper styles
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
-// const swiper = new Swiper('.swiper', {
-//   modules: [Navigation, Pagination],
-// });
+
 //import required modules
-import { Navigation, Pagination,FreeMode } from 'swiper/modules';
-import { SiDesignernews } from 'react-icons/si';
-import { RiArtboard2Fill, RiBrush2Fill, RiDeviceFill, RiPagesFill } from 'react-icons/ri';
+import { Pagination } from 'swiper/modules';
+import { RiDeviceFill, RiPagesFill } from 'react-icons/ri';
 import { FaPaintBrush } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 // data
@@ -62,6 +55,7 @@ const serviceData = [
 function ServiceSlider() {
   return (
     <Swiper
+  centeredSlides={true}
       breakpoints={{
         320: {
           slidesPerView: 1,
@@ -72,12 +66,12 @@ function ServiceSlider() {
           spaceBetween: 15,
         },
       }}
-      freeMode={true}
+      
       pagination={{
         clickable: true,
       }}
-      modules={[FreeMode, Pagination]}
-      className="h-[240px] sm:h-[340px]"
+      modules={[Pagination]}
+      className="h-[240px] sm:h-[340px] "
     >
       {serviceData.map((item, index) => {
         return (
@@ -88,7 +82,7 @@ function ServiceSlider() {
               {/* title & desc */}
               <div className='mb-8'>
                 <div className='mb-2 text-lg sm:text-base lg:text-lg xl:text-xl'>{item.title}</div>
-                <p className='max-w-[350px] leading-normal font-thin sm:text-sm lg:text-base xl:text-sm xxl:text-base'>{item.description}</p>
+                <p className='max-w-[350px] leading-normal font-thin text-sm lg:text-base xl:text-sm xxl:text-base'>{item.description}</p>
               </div>
               {/* arrow */}
               <div className="text-3xl ">

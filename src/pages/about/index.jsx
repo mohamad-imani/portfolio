@@ -76,7 +76,7 @@ const aboutData = [
         ],
       },
       {
-        title: 'Styling',
+        title: 'Styling & Dev Tools',
         icons: [
           <SiTailwindcss
             name="TailwindCSS"
@@ -89,6 +89,14 @@ const aboutData = [
             width={150}
             name="Styled Components"
           />,
+          <BsGit
+          name="Git"
+          className="transition-all duration-300 hover:text-[#f14e32]"
+        />,
+        <RiSupabaseFill
+          name="Supabase"
+          className="transition-all duration-300 hover:text-green-800"
+        />,
 
           <SiSass
             name="Sass"
@@ -96,19 +104,7 @@ const aboutData = [
           />,
         ],
       },
-      {
-        title: 'Dev Tools',
-        icons: [
-          <BsGit
-            name="Git"
-            className="transition-all duration-300 hover:text-[#f14e32]"
-          />,
-          <RiSupabaseFill
-            name="Supabase"
-            className="transition-all duration-300 hover:text-green-800"
-          />,
-        ],
-      },
+    
     ],
   },
 
@@ -169,7 +165,7 @@ const About = () => {
       </motion.div>
       <div className="container mx-auto -mt-10 flex h-full flex-col items-center gap-x-6  xl:max-w-6xl xl:flex-row ">
         {/* text*/}
-        <div className="flex flex-1 flex-col justify-center ">
+        <div className="flex flex-1 flex-col justify-center -mt-4 sm:-mt-0 ">
           <motion.h2
             variants={fadeIn('right', 0.2)}
             initial="hidden"
@@ -193,7 +189,7 @@ const About = () => {
             exit="hidden"
             className="mx-auto mb-6 max-w-[500px] px-2 xl:mx-0 xl:mb-12 xl:px-0"
           >
-            {`As a developer i enjoy building everything from small tasks to rich interactive web apps , I revel in crafting animations that add rhythm and soul to the UserExperience. Exploring modern designs are integral aspects of my journey.`}
+            {`As a developer i enjoy building everything from small tasks to rich interactive web apps , Exploring modern designs are integral aspects of my journey.`}
           </motion.p>
         </div>
         {/* info*/}

@@ -2,19 +2,19 @@ import { Link } from 'react-router-dom';
 import Socials from './Socials';
 const Header = () => {
   return (
-    <header className="absolute z-30  flex w-full items-center p-2 xl:h-[90px] xl:px-0">
-      <div className="container mx-auto">
-        <div className="flex items-center justify-center sm:justify-between sm:gap-y-6 lg:flex-row ">
-          <Link to="/" className=''>
-            <img src={'/fav.svg'} alt="" width={50} height={50}  />
-          </Link>
-          <div className="hidden sm:flex flex-col gap-y-3 sm:flex-row gap-x-4">
+    <header className="absolute z-30  flex w-full items-center p-5 xl:h-[90px] xl:px-0">
+      <div className="mx-auto w-full">
+        <div className="flex items-center justify-end sm:justify-between sm:gap-y-6 lg:flex-row ">
+          <div className="hidden flex-col gap-x-4 gap-y-3 sm:flex sm:flex-row">
             <Socials />
 
             <Link to="/contact" className="button">
               Get in touch
             </Link>
           </div>
+          <Link to="/">
+            <img src={'/fav.svg'} alt="" width={50} height={50} />
+          </Link>
         </div>
       </div>
     </header>

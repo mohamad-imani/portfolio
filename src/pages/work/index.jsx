@@ -34,7 +34,7 @@ const Work = () => {
               exit="hidden"
               className="mx-auto mb-4 max-w-[400px] text-center lg:mx-0 lg:max-w-2xl"
             >
-              Here , you{`'ll`} find the evolving chapters of my journey in web
+              Here you{`'ll`} find the evolving chapters of my journey in web
               development. Each project represents a step in my learning
               process.
               <br />
@@ -42,13 +42,12 @@ const Work = () => {
             </motion.p>
           </div>
 
-          {/* slider*/}
           <motion.div
             variants={fadeIn('down', 0.6)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-full"
+            className="w-full "
           >
             <div className="mx-auto grid grid-cols-1 grid-rows-1  gap-8 xl:max-w-4xl xxl:max-w-5xl ">
               {/* card1 */}
@@ -62,18 +61,18 @@ const Work = () => {
                     height={300}
                     alt=""
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-purple-900 to-gray-900 opacity-0 transition-all duration-700 group-hover:opacity-90"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r rounded-lg from-gray-900 via-purple-900 to-gray-900 opacity-0 transition-all duration-700 group-hover:opacity-90 "></div>
 
-                  <div className="absolute bottom-0 flex translate-y-full flex-col items-center justify-between gap-y-6 px-2 transition-all duration-700 group-hover:-translate-y-12">
-                    <h1 className="rounded-lg p-3 text-3xl font-black text-white/90 shadow-md shadow-black/70">
+                  <div className="absolute bottom-0 flex translate-y-full flex-col items-center justify-between gap-y-4 sm:gap-y-6 px-2 transition-all duration-700 group-hover:-translate-y-8 sm:group-hover:-translate-y-12">
+                    <h1 className="rounded-lg p-3 text-2xl  sm:text-3xl font-black text-white/90 shadow-md shadow-black/70">
                       The Wild Oasis
                     </h1>
-                    <p className="text-center text-white/90">
+                    <p className="text-center text-sm sm:text-base text-white/90">
                       This is a internal application used inside the hotel to
                       check-in guests as they arrive and also customers can book
                       their stays.
                     </p>
-                    <div className="-mb-6 flex items-center justify-between gap-x-8">
+                    <div className="-mb-6 flex items-center justify-between gap-x-3 sm:gap-x-8">
                       <div className="flex gap-2 ">
                         <FaReact
                           size={40}
@@ -106,7 +105,7 @@ const Work = () => {
                           className="transition-all duration-300 hover:text-green-800"
                         />
                       </div>
-                      <div className="flex gap-2 text-[16px]  ">
+                      <div className="flex gap-1 sm:gap-2 text-[12px] sm:text-[16px]  ">
                         <div className="flex items-center justify-center gap-x-1">
                           <Link
                             className="underline-offset-4 hover:underline "
