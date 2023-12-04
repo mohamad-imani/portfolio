@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 const Layout = () => {
   return (
     <div
-      className={`page relative bg-site bg-cover bg-no-repeat font-sora text-white `}
+      className={`page relative bg-site bg-cover bg-no-repeat font-sora text-white overflow-y-scroll lg:overflow-hidden`}
     >
       <TopLeftImg />
       <Nav />

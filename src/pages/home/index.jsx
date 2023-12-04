@@ -9,10 +9,10 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 const Home = () => {
   return (
-    <div className="h-full bg-primary/60 ">
+    <div className=" bg-primary/30  ">
       {/*text*/}
-      <motion.div className="h-full w-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 ">
-        <div className="container mx-auto flex h-full flex-col justify-center text-center xl:pt-40 xl:text-left ">
+      <motion.div className="bg-gradient-to-r from-primary/10 via-black/30 to-black/10 w-full lg:h-[100dvh] ">
+        <div className="container mx-auto flex flex-col justify-center text-center xl:pt-40 xl:text-left h-full">
           {/*title*/}
           <motion.h1
             variants={fadeIn('down', 0.2)}

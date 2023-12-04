@@ -44,14 +44,14 @@ const Contact = () => {
       <Toaster />
   }
   return (
-    <div className="h-full bg-primary/30">
+    <div className="">
       <Circles />
       <motion.div 
       initial='hidden'
       animate='show'
       exit='hidden'
       variants={fadeIn('right' , 0.6)}
-      className='hidden xxl:flex absolute w-[400px] bottom-64 left-24 mix-blend-color-dodge brightness-95 saturate-0 '>
+      className='hidden xxl:flex absolute w-[400px] bottom-64 left-24 mix-blend-color-dodge brightness-95 saturate-0 l'>
       <img src={"/hands.png"} className='h-full w-full'  alt="" />
       </motion.div>
       <div className="container mx-auto flex h-full items-center justify-center py-32 text-center xl:text-left">
@@ -83,7 +83,7 @@ const Contact = () => {
               <div className="w-full">
                 <input
                   type="text"
-                  placeholder="name"
+                  placeholder="Name"
                   id="name"
                   className="input"
                   {...register('name', {
@@ -96,7 +96,7 @@ const Contact = () => {
                 <input
                   type="text"
                   required
-                  placeholder="email"
+                  placeholder="Email"
                   id="email"
                   className="input "
                   {...register('email', {
@@ -117,13 +117,13 @@ const Contact = () => {
             </div>
             <input
               type="text"
-              placeholder="subject"
+              placeholder="Subject"
               id="subject"
               className="input"
               {...register('subject')}
             />
             <textarea
-              placeholder="message"
+              placeholder="Message"
               className="textarea"
               id="message"
               {...register('message', {

@@ -12,7 +12,7 @@ function ParticlesContainer() {
 
   return (
     <Particles
-      className="translate-z-0 absolute h-full w-full hidden xl:flex"
+      className="translate-z-0 absolute h-full w-full"
       id="tsparticles"
       init={particleInit}
       loaded={particleLoaded}

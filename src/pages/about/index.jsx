@@ -177,7 +177,7 @@ const About = () => {
             <br />
             <span className="text-accent">
               Creating an{' '}
-              <span className="bg-gradient-to-r from-[#f333c3] via-[#3056ff] to-[#680fcd] bg-clip-text text-transparent">
+              <span className="xl:bg-gradient-to-r xl:from-[#f333c3] xl:via-[#3056ff] xl:to-[#680fcd] xl:bg-clip-text xl:text-transparent">
                 Art
               </span>
             </span>
