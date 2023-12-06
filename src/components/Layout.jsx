@@ -17,11 +17,10 @@ const Layout = () => {
       console.log('Window innerHeight:', window.innerHeight);
     };
 
-    // Attach the event listener
     window.addEventListener('resize', handleResize);
     handleResize();
 
-    // Cleanup the event listener on component unmount
+    // Cleanup 
     return () => {
       window.removeEventListener('resize', handleResize);
     };

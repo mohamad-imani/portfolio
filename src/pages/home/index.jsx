@@ -9,9 +9,9 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 const Home = () => {
   return (
-    <div className="bg-primary/60 ">
+    <div className="bg-primary/60 w-full h-full">
       {/*text*/}
-      <motion.div className="w-full  h-[100dvh]">
+      <motion.div className="w-full lg:h-[100dvh]">
         <div className="container mx-auto flex flex-col justify-center text-center xl:pt-40 xl:text-left h-full">
           {/*title*/}
           <motion.h1
