@@ -48,6 +48,12 @@
   }
 }
 
+@media (min-width : 960px) and (max-height : 400px){
+  .scroll {
+    overflow-y : scroll !important
+  }
+}
+
 @layer base {
   body {
     @apply overflow-hidden bg-secondary font-sora leading-relaxed text-white;

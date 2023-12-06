@@ -9,9 +9,9 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 const Home = () => {
   return (
-    <div className="  mt-12">
+    <div className="bg-primary/60 ">
       {/*text*/}
-      <motion.div className="w-full lg:h-[100dvh] ">
+      <motion.div className="w-full  h-[100dvh]">
         <div className="container mx-auto flex flex-col justify-center text-center xl:pt-40 xl:text-left h-full">
           {/*title*/}
           <motion.h1
@@ -19,7 +19,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1 text-white/90 text-5xl sm:mt-10 xxl:text-7xl"
+            className="h1 text-white/90 text-5xl mt-20 sm:mt-40  xl:mt-0 xxl:text-7xl"
           >
             
             <span className="font-[righteous]  tracking-wider -ml-[29px] xl:ml-0">Frontend
@@ -61,7 +61,7 @@ const Home = () => {
       <div className="absolute bottom-0 right-0 h-full w-full">
         {/*bg img*/}
 
-        <div className="translate-z-0 absolute h-full w-full bg-none mix-blend-color-dodge xl:bg-explosion xl:bg-opacity-80 xl:bg-cover xl:bg-right xl:bg-no-repeat  "></div>
+        <div className="translate-z-0 absolute h-full w-full bg-none mix-blend-color-dodge xl:bg-explosion xl:bg-opacity-90 xl:bg-cover xl:bg-right xl:bg-no-repeat  "></div>
         {/*particles*/}
         <ParticlesContainer />
         {/*avatar img*/}

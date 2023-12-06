@@ -1,11 +1,37 @@
 // components
+
+import { useEffect, useState } from 'react';
 import Nav from './Nav';
 import TopLeftImg from './TopLeftImg';
 import { Outlet } from 'react-router-dom';
+
 const Layout = () => {
+  const [isOverFlow, setIsOverflow] = useState(false);
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerHeight <= 500 && window.innerWidth >= 400) {
+        setIsOverflow(true);
+      } else {
+        setIsOverflow(false);
+      }
+      console.log('Window innerHeight:', window.innerHeight);
+    };
+
+    // Attach the event listener
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <div
-      className={`page relative bg-site bg-cover bg-no-repeat font-sora text-white overflow-y-scroll lg:overflow-hidden`}
+      className={`${
+        isOverFlow ? 'overflow-y-scroll' : 'overflow-y-hidden'
+      } page relative bg-site bg-cover bg-no-repeat font-sora text-white `}
     >
       <TopLeftImg />
       <Nav />

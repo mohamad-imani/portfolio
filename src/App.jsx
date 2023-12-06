@@ -6,7 +6,6 @@ import Transition from './components/Transition';
 import AnimatedRoutes from './components/AnimatedRoutes';
 import Header from './components/Header';
 import { Toaster } from 'react-hot-toast';
-import { Suspense } from 'react';
 
 export default function App() {
   return (

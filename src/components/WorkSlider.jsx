@@ -209,9 +209,9 @@ export default function WorkSlider() {
           <div className="flex gap-2 text-[12px] sm:text-[16px]  ">
             <div className="flex items-center justify-center gap-x-1">
               <Link
-                className="underline-offset-4 hover:line-through"
+                className="underline-offset-4 hover:underline"
                 target="_blank"
-                to={'*'}
+                to={'https://m-imani-worldwise.vercel.app'}
               >
                 Live Demo
               </Link>
