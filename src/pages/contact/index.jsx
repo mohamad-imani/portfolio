@@ -44,7 +44,7 @@ const Contact = () => {
       <Toaster />
   }
   return (
-    <div className="">
+    <div className="xl:h-full">
       <Circles />
       <motion.div 
       initial='hidden'

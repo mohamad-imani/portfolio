@@ -242,6 +242,7 @@ const About = () => {
                           content={icon.props.name}
                           className={`bg-white/10 px-2 py-1 font-medium text-white backdrop-blur-sm`}
                           position="top-start"
+                          key={itemIndex}
                         >
                           <div
                             key={itemIndex}

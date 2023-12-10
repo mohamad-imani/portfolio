@@ -7,7 +7,7 @@ const Avatar = () => {
         width="737px"
         height="678px"
         alt=""
-        className="translate-z-0 h-full w-full brightness-90 saturate-[.9]"
+        className="translate-z-0 h-full w-full brightness-95 saturate-[.9]"
         loading="lazy"
       />
     </div>
